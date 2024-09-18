@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.hader_section{
+    display: flex;
+    justify-content:space-between;
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+    /* padding: 10px; */
+}
+.left_Header{
+    /* background-color: blue; */
+    height: 50px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_Header img{
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 25px;
+
+}
+.right_Header{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.body_left {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image_wrapper {
+    position: relative;
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+}
+
+.profile_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.active_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px; /* Adjust size as needed */
+    height: 10px; /* Adjust size as needed */
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Add a white border to separate the active icon */
+}
+
+.body_right {
+    width: 100%;
+    text-align: start;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+.chat_body{
+    height: 80vh;
+    overflow-y: scroll;
+    box-sizing: border-box;
+
+
+}
+.chat_body::-webkit-scrollbar{
+    width: 0px;
+}
+
+.footer_section{
+    background-color: #e5e5e5;
+}
+.footer{
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.file_send img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+}
+.text {
+    width: 100%;
+    margin: 20px;
+}
+.text input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.send_message button{
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.send_message img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; 
+}
+
+.chat_body_recive{
+   
+    display: flex;
+    justify-content: start;
+}
+
+.send{
+    background-color: antiquewhite;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chat_body_send {
+   
+    display: flex;
+    justify-content: end;
+}
+
+.receive{
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(179, 255, 175);
+}
+
+
+
+/* registre */
+.registre{
+    font-family: Arial, sans-serif;
+    background-color: #ff1f1f;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logout{
+    height: 50px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat_section{
+    flex: 1;
+}
+
+.mm{
+   float: left;
+}
+.mm_left{
+    width: 50%;
+    height: 200px;
+    background-color: #ff1f1f;
+}
+.mm_right{
+    width: 50%;
+    height: 200px;
+    background-color: #ff1f1f;
+}
